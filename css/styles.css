@@ -24,6 +24,9 @@ a:hover, a:focus {
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
+.header-logo {
+    color: #2e2f42;
+}
 .header-nav {
     font-weight: 500;
     color: #2E2F42;
@@ -42,6 +45,7 @@ a:hover, a:focus {
 .header-contacts-item {
     letter-spacing: 0.02em;
     color: #434455;
+    line-height: 1.5;
 }
 .hero {
     background-color: #2E2F42;
