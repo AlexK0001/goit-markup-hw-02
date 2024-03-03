@@ -27,6 +27,7 @@ a:hover, a:focus {
 .header-nav {
     font-weight: 500;
     color: #2E2F42;
+    line-height: 1.5;
 }
 .header-contacts {
     font-weight: 400;
