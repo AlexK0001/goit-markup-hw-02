@@ -115,10 +115,11 @@ a:hover, a:focus {
 .portfolio-header{
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 0.02;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize
 }
 .portfolio-item {
     background-color: #FFFFFF;
