@@ -109,6 +109,29 @@ a:hover, a:focus {
     font-size: 16px;
     letter-spacing: 0.02em;
 }
+.portfolio {
+    background-color: #E7E9FC;
+}
+.portfolio-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02;
+    text-align: center;
+    color: #2E2F42;
+}
+.portfolio-item {
+    background-color: #FFFFFF;
+}
+.portfolio-item-header {
+    font-weight: 500;
+    font-size: 20px;
+}
+.portfolio-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+}
 .footer {
     color: #F4F4FD;
     background-color: #2E2F42;
