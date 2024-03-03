@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
     line-height: 24px;
@@ -11,25 +11,29 @@ a:hover, a:focus {
 .header {
     background-color: #FFFFFF;
     font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
-    color: #4D5AE5;
+    color: #2e2f42;
     font-weight: 700;
     line-height: 21px;
-    letter-spacing: 0.03;
-}
-.logo-header {
-    color: #2E2F42;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
 }
 .header-nav {
-    gap: 40px;
     font-weight: 500;
     color: #2E2F42;
 }
 .header-contacts {
     font-weight: 400;
+    color: #434455;
+    font-style: normal;
+}
+.header-contacts-item {
+    letter-spacing: 0.02em;
     color: #434455;
 }
 .hero {
@@ -37,28 +41,36 @@ a:hover, a:focus {
 }
 .hero-text {
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
     color: #FFFFFF;
+    font-size: 56px;
+    letter-spacing: 0.02em;
 }
 .hero-btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
     font-weight: 500;
     background-color: #4d5ae5;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     cursor: pointer;
 }
 .hero-btn:hover, .hero-btn:focus {
-    color: #404bbf;
+    background-color: #404BBF;
 }
 .benefits-header {
     font-weight: 500;
     font-size: 20px;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 .benefits-text {
     font-weight: 400;
     font-size: 16px;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 .team {
     text-align: center;
@@ -68,20 +80,27 @@ a:hover, a:focus {
 .team-header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .team-list {
     background-color: #FFFFFF;
     text-align: center;
 }
+.team-item {
+    background-color: #FFFFFF;
+}
 .team-item-header {
     font-weight: 500;
     font-size: 20px;
+    letter-spacing: 0.02em;
 }
 .team-item-text {
     color: #434455;
     font-weight: 400;
     font-size: 16px;
+    letter-spacing: 0.02em;
 }
 .footer {
     color: #F4F4FD;
@@ -90,4 +109,8 @@ a:hover, a:focus {
 .footer-text {
     font-weight: 400;
     font-size: 16px;
+    letter-spacing: 0.02em;
+}
+.footer-logo {
+    color: #f4f4fd;
 }
