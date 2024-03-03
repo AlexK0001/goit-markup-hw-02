@@ -127,11 +127,14 @@ a:hover, a:focus {
 .portfolio-item-header {
     font-weight: 500;
     font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .portfolio-item-text {
     font-weight: 400;
     font-size: 16px;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 .footer {
     color: #F4F4FD;
